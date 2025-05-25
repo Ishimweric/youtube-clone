@@ -1,7 +1,22 @@
 .feed-thumbnail{
     width: 100%;
     margin-bottom: 12px;
-}    
+}  
+.thumbnail-container{
+    position: relative;
+}  
+.video-duration{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 20px;
+    right: 5px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+}
 .video-preview{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

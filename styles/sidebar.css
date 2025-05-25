@@ -1,0 +1,26 @@
+.side-bar{
+    background-color: aqua;
+    width: 80px;
+    position: fixed;
+    top: 58px;
+    bottom: 0;
+    left: 0;
+}
+.home-icon{
+    height: 25px;
+}
+.explore-icon{
+    height: 25px;
+}
+.subscriptions-icon{
+    height: 25px;
+}
+.originals-icon{
+    height: 25px;
+}
+.youtube-music-icon{
+    height: 25px;
+}
+.library-icon{
+    height: 25px;
+}
