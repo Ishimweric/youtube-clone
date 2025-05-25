@@ -1,26 +1,26 @@
 .side-bar{
-    background-color: aqua;
     width: 80px;
     position: fixed;
     top: 58px;
     bottom: 0;
     left: 0;
 }
-.home-icon{
-    height: 25px;
+.sidebar-icon-container{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.explore-icon{
-    height: 25px;
+.sidebar-icon-container:hover{
+    background-color: rgb(224, 220, 220);
 }
-.subscriptions-icon{
-    height: 25px;
+.side-bar img{
+    height: 24px;
+    margin-bottom: 4px;
 }
-.originals-icon{
-    height: 25px;
-}
-.youtube-music-icon{
-    height: 25px;
-}
-.library-icon{
-    height: 25px;
+.side-bar div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+
 }
