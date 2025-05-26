@@ -1,9 +1,12 @@
 .side-bar{
-    width: 80px;
+    width: 75px;
     position: fixed;
-    top: 58px;
+    top: 57px;
     bottom: 0;
     left: 0;
+    z-index: 200;
+    background-color: white;
+    padding-top: 4px;
 }
 .sidebar-icon-container{
     height: 74px;
@@ -11,6 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 .sidebar-icon-container:hover{
     background-color: rgb(224, 220, 220);
